@@ -1,0 +1,16 @@
+# Redrob Ranker — Python Requirements
+# No external packages required.
+# This project uses Python standard library only.
+#
+# Standard library modules used:
+#   json      — loading candidates.jsonl
+#   csv       — writing submission.csv
+#   datetime  — date calculations for recency scoring
+#   argparse  — command line arguments
+#   pathlib   — file path handling
+#   collections — Counter for data analysis
+#
+# Python version: 3.9 or higher
+#
+# To run:
+#   python rank.py --candidates ./candidates.jsonl --out ./submission.csv
